@@ -1,7 +1,8 @@
 """main run file"""
-
+# import necessary dependencies
 import praw
 from twilio.rest import Client
+import json
 def automation(subreddit):
     """main run funciton"""
     keywords = ['cherry', 'mx', 'red']
