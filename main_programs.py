@@ -1,3 +1,4 @@
+# dependencies used
 import praw
 from twilio.rest import Client
 
