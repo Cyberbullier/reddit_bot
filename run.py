@@ -35,7 +35,7 @@ def twilio_sns(account_sid, auth_token, keywords, submission, comment):
     message = client.messages.create(
         to="+16478634626",
         from_="+16043734540",
-        body="salutations nigger")
+        body="yo")
     print(message.sid)
 
 
